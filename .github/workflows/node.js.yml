@@ -41,5 +41,5 @@ jobs:
     - uses: akhileshns/heroku-deploy@v3.15.15 # This is the action
       with:
         heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
-        heroku_app_name: "secure-api-agray998-staging" #Must be unique in Heroku
-        heroku_email: "a.gray.4797@gmail.com"
+        heroku_app_name: "heroku-secureappi-staging" #Must be unique in Heroku
+        heroku_email: "suryajith@natcofoods.com"
