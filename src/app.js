@@ -22,5 +22,9 @@ module.exports = function() {
     res.status(200).send('Hi there!');
   });
 
+  app.get('/bye', (req, res) => {
+    res.status(200).send('Goodbye!');
+  });
+
   return app;
 };
